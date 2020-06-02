@@ -1,0 +1,108 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  background-color: black;
+}
+td {
+  margin: 0;
+  width: 100%;
+  background-color: black;
+  
+}
+.AppMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+  background-color: #61dafb;
+
+}
+
+form {
+  margin-left: 34px;
+}
+
+label {
+  display: block;
+  padding: 4px;
+  margin-left: 4px;
+}
+
+input[type=text] {
+  display: block;
+  border-radius: 5px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+input[type=submit] {
+  display: block;
+  padding: 4px;
+  border-radius: 4px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+p {
+  position: relative;
+  top: -55px;
+  left: 55px;
+}
+
+.App {
+  background-color:black;
+  align-items: left;
+  font-size: 1rem;
+  color: white;
+  height: 60px;
+  clear: both;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.panelDiv {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  overflow: auto
+}
+
+.searchBoxDiv {
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+  color: #61dafb;
+  overflow: auto
+}
+
+span {
+  margin-left: 140px;
+}
+
+.resultsDiv {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+}
